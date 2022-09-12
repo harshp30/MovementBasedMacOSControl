@@ -128,10 +128,11 @@ if(start == '1'):
 
                 # OPEN MUSIC Command Logic
                 if rightBicepCurlAngle < 90 and leftBicepCurlAngle < 90:
-                    command = 'OPEN MUSIC'
                     if(counter%2==0):
+                        command = 'OPEN MUSIC'
                         osascript.osascript('tell application "music" to activate')
                     else:
+                        command = 'CLOSE MUSIC'
                         osascript.osascript('quit app "music.app"')
                     counter += 1
 

@@ -22,7 +22,7 @@ Cross Arms (both left and irght arm curl) -> Open/Close Music App (alternating)
 
 The body movements are tracked through creating angle poiints between the different nodes. As seen in the picture below I calculated the angle between these points and once they went below a certain value I know a "curl" had occured. 
 
-![angle diagram](https://github.com/harshp30/MovementBasedMacOSControl/blob/main/images/angle.png)
+![angle diagram](https://github.com/harshp30/MovementBasedMacOSControl/blob/main/images/angles.png)
 
 ## Use Case
 
